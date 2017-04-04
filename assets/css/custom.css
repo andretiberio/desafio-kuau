@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+
+html,body {
+	height:100%;
+}
+
+h1 {
+	font-family: 'Antic Slab', serif;
+	font-size:80px;
+	color:#DDCCEE;
+}
+
+.text {
+	color:#DDCCEE;
+}
+
+#githublink {
+	color:#0366d6;
+	text-decoration: underline;
+}
+
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+	min-height:950px;
+	background-color:#110022;
+	color:#eee;
+	overflow:hidden;
+}
+
+.container-full a {
+	color:#efefef;
+	text-decoration:none;
+}
+
+.v-center {
+	margin-top:7%;
+}
+
+.user-search .form-control {
+	border-radius: 6px !important;
+}
+
+.user-data .btn-lnk {
+	margin-top: 2px;
+}
+
+.user-data .media-heading {
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1120px) { 
+	h1 {
+		font-size:68px;
+	}
+}
+
+@media screen and (min-width: 520px) and (max-width: 949px) { 
+	h1 {
+		font-size:52px;
+	}
+}
+
+@media screen and (max-width: 520px) { 
+	h1 {
+		font-size:34px;
+	}
+}

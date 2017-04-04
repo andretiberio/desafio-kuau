@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Exercício de Programação Kuau</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://maxcdn.bootstrapcdn.com' rel='preconnect' crossorigin>
+	<link href='https://ajax.googleapis.com' rel='preconnect' crossorigin>
+	<link href='https://cdnjs.cloudflare.com' rel='preconnect' crossorigin>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/pt-br.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lscache/1.1.0/lscache.min.js"></script>
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+	<div class="container-full">
+		<div class="row" >
+			<div class="col-lg-12 text-center v-center">
+				<h1>Buscador de usuários do Github</h1>
+				<p class="text lead"><small>Esta é uma ferramenta que busca usuários através da API do Github</small></p>
+				<br>
+				<div class="user-data clearfix"></div>
+				<form class="user-search col-lg-12">
+					<div class="input-group input-group-lg col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+						<input 
+						id="input" 
+						type="text" 
+						class="center-block form-control input-lg typeahead" 
+						title="Digite o nome de usuário." 
+						placeholder="Digite aqui o nome de usuário" 
+						data-provide="typeahead">
+					</div>
+				</form>
+			</div>
+		</div>
+		<br>
+		<div class="small text-center text">Veja como essa ferramenta foi implementada <a id="githublink" href="https://www.github.com/andretiberio/desafio-kuau">aqui</a></div>
+	</div>
+	<script type="text/javascript" src="assets/js/search.js"></script>
+</body>
+</html>
